@@ -1,0 +1,71 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    min-height: 400px;
+    background-image: url("https://www.decorfacil.com/wp-content/uploads/2020/07/20200716lista-de-material-escolar-1.jpg");
+    background-color: #088080;
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color:#ffffff;
+    margin: 0 0 5px;
+  }
+  label {
+    color: #ffffff;
+  }
+  .entrada {
+    margin-top: 5px;
+    border-radius: 3px;
+    border-style: none;
+    width: 300px;
+    padding: 5px;
+  }
+  button{
+    background: #1a936f;
+    border-style: none;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    color: white;
+    box-shadow: 0px 10px 20px #187D5F; 
+    font-family: 'Roboto Mono',monospace;
+  }
+  button:hover{
+    background: #FFBD00;
+    box-shadow: 0px 10px 20px #DDA304; 
+    transition: 0.5s;
+  }
+  .page-subtitle {
+    color:#ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 300px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .logo-media {
+    width: 100px;
+    position: center;
+    center: 60px;  
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+    background: rgba(0,40,20,.6);
+  }

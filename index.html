@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width", initial-scale="1.0">
+        <title> Imersão Dev Alura - Aula 01</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+        </style>
+        <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de Média</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota de todas as provas Bimestrais!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+      <!--calculo para saber média-->
+      <label for="media">Insira as Notas</label><br>
+  <input type="number" placeholder="Primeiro Bimestre" id="primeiroBimestre" size="2" class="entrada"/><br>
+  <input type="number" placeholder="Segundo Bimestre" id="segundoBimestre" size="2" class="entrada" /><br>
+  <input type="number" placeholder="Terceiro Bimestre" id="terceiroBimestre" size="2" class="entrada" /><br>
+  <input type="number" placeholder="Quarto Bimestre" id="quartoBimestre" size="2" class="entrada"/><br>
+  <button type="submit" onclick="CalcularMedia()">Calcular Média</button>
+  <h2 id="resultadoSaidaMedia"></h2>
+    <!--para usar na saida do resultado pelo innerHTML-->
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+    <img src="https://www.canva.com/design/DAE6j3Tvyrk/3nSRD56ETdWrFNj9nfPoww/view?utm_content=DAE6j3Tvyrk&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" alt="" class="logo-media"> 
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
