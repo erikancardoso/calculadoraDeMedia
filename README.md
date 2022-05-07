@@ -1,2 +1,2 @@
 # calculadoraDeMedia
-#ImersaoDev, alura, javascript, htm, css
+#javascrip #css #imersaodev
